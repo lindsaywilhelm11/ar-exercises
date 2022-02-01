@@ -20,7 +20,7 @@ puts "----------"
 #     Create a bunch under @store1 (Burnaby) and @store2 (Richmond). Eg: @store1.employees.create(...).
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Lindsay", last_name: "Wilhelm", hourly_rate: 80)
+@store1.employees.create(first_name: "Lindsay", last_name: "Wilhelm", hourly_rate: 100)
 @store1.employees.create(first_name: "Loki", last_name: "Laufeyson", hourly_rate: 800)
 @store1.employees.create(first_name: "Ash", last_name: "Ketchum", hourly_rate: 70)
 @store2.employees.create(first_name: "Link", last_name: "Hyrule", hourly_rate: 90)
